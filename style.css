@@ -1,0 +1,577 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+}
+
+/* Navigation image & icon styling */
+.navImg {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    z-index: 0; 
+}
+
+/* Diet image styling */
+.dietImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+.dietImg img {
+    object-fit: cover;
+    width: 55%;
+    height: auto;
+}
+
+/* Diet tracker styling */
+.diet-tracker {
+    display: flex;
+    margin-top: 80px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #23233C;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.green-text {
+    color: #6CC57C;
+    font-weight: 800;
+}
+
+/* Container section */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    min-height: 30vh;
+}
+
+.questions {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+/* Individual question styling */
+.question {
+    margin-left: 60px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 25px;
+    border-radius: 5px; 
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question:first-child {
+    padding-left: 35px;
+    margin-bottom: 30px; 
+}
+
+.question:last-child {
+    padding-left: 35px; 
+}
+
+/* Progress tracker styling */
+.progress-tracker {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+  }
+
+  .progress-tracker p {
+    margin-right: 60px;
+    font-size: 22px;
+    color: #717184;
+  }
+
+  .progress-tracker img {
+    margin-right: 195px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #23233C;
+}
+
+.text {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+/* Media query for only mobile screen (max-width: 599px) */
+@media (max-width: 599px) {
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: white;
+    }
+
+    .navbar {
+        text-align: center;
+        overflow: auto;
+    }
+
+    .navImg {
+        height: 22vh;
+        width: 98%;
+        position: relative;
+        z-index: 0; 
+        margin: auto;
+    }
+
+    .dietImg img {
+        width: auto;
+    }
+
+    .diet-tracker {
+        width: auto;
+        margin-top: auto;
+        font-size: 18px;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        width: 90%;
+        min-height: auto;
+        margin: auto;
+    }
+
+    .questions {
+        margin-bottom: 20px;
+    }
+
+    .question {
+        margin-left: 0;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .question:first-child {
+        padding-left: 15px;
+        margin-bottom: 20px; 
+    }
+
+    .question:last-child {
+        padding-left: 15px; 
+    }
+
+    .progress-tracker p {
+        margin-right: 60px;
+        font-size: 16px;
+    }
+
+    .progress-tracker img {
+        border-radius: 1000px;
+        margin-top: 40px;
+        margin-right: 120px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .text {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+}
+
+/* Main image styling in the navigation bar */
+.mainImg {
+    width: 100%;
+    height: 50vh;
+    position: relative; 
+    z-index: 0; 
+    overflow: hidden;
+    top: -120px;
+}
+
+/* Other icons styling in the navigation bar */
+.sImg {
+    width: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 11.8%;
+}
+
+.digital_clock {
+    position: absolute;
+    top: 0.4%;
+    left: 5%;
+    width: 17%;
+    height: 5%; 
+}
+
+.android_icon {
+    position: absolute;
+    right: 5%;
+    top: 0.1%;
+    width: 22%;
+    height: 9%; 
+}
+
+.left_arrow {
+    position: absolute;
+    top: 152px;
+    left: 10%;
+    width: 7.5%;
+    padding: 15px;
+    border-radius: 100px;
+    box-shadow: 0 10px 20px rgba(1, 28, 117, 0.4);
+    background-color: #ffffff;
+}
+
+.icon_favorite {
+    position: absolute;
+    top: 152px;
+    right: 8%;
+    width: 6%;
+    padding: 15px;
+    border-radius: 100px;
+    box-shadow: 0 10px 20px rgba(1, 28, 117, 0.4);
+    background-color: #ffffff;
+}
+
+/* Menu section styling */
+.menu h1 {
+    display: flex;
+    margin-top: -105px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #23233C;
+    font-weight: 800;
+    margin-bottom: -10px;
+    font-size: 34px;
+}
+
+.menu h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #535361;
+    margin-bottom: -2px;
+    font-size: 16px;
+}
+
+/* Nutritional information section styling */
+.info {
+    width: 82%;
+    margin: auto;
+    padding: 23px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(1, 28, 117, 0.2);
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.info h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #494952;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-item {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0 25px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.p-text {
+    color: #EE6A6E;
+}
+
+.subtext{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    color: #63636f;
+}
+
+/* Ingredients section styling */
+.info1 {
+    width: 82%;
+    margin: auto;
+    padding: 23px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(1, 28, 117, 0.2);
+    background-color: #ffffff;
+    margin-top: 25px;
+}
+
+.info1 h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #494952;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-top: 1px;
+    margin-bottom: -25px; 
+    font-weight: 800;
+}
+
+.text-container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.text-item1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text-item1 img {
+    margin-top: 50px;
+    width: 100%; 
+    height: auto; 
+}
+
+.subtext1 {
+    font-size: 15px;
+    font-weight: 200;
+    color: #63636f;
+}
+
+/* Preparation section styling */
+.info2 {
+    width: 83%;
+    margin: auto;
+    padding: 23px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(1, 28, 117, 0.2);
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.info2 h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #494952;
+    font-size: 27px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+/* Navigation section styling */
+.bottom-navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 91%;
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    color: rgb(0, 0, 0); 
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 35px; 
+    border-top-right-radius: 35px; 
+}
+
+/* Individual button styling in the navigation section */
+.home {
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(1, 28, 117, 0.2);
+    padding: 10px 20px;
+    background-color: #6CC57C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    position: relative;
+    right: 30px;
+}
+
+.contact img{
+    width: 35px;
+}
+
+.achievment img{
+    width: 35px;
+}
+
+.settings img{
+    width: 35px;
+}
+
+.home, .contact, .achievment, .settings {
+    cursor: pointer;
+}
+
+/* Media query for only mobile screen (max-width: 599px) */
+@media (max-width: 599px) {
+    body {
+        
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #F4F5FA;
+    }
+
+    .navbar {
+        text-align: center;
+        overflow: auto;
+    }
+
+    .mainImg {
+        height: 45vh;
+        top: -112px;
+    }
+
+    .sImg {
+        height: 10%;
+    }
+
+    .android_icon {
+        top: -1px;
+        right: 5%;
+        width: 30%;
+        height: auto;
+    }
+
+    .digital_clock {
+        position: absolute;
+        top: .4%;
+        left: 4%;
+        width: 25%;
+        height: auto; 
+    }
+
+    .left_arrow,
+    .icon_favorite {
+        top: 130px;
+        padding: 10px;
+    }
+
+    .menu h1 {
+        font-size: 24px;
+        margin-top: -90px;
+    }
+
+    .menu h5 {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .info h4 {
+        font-size: 24px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .info2 {
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .text-container {
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .text-item {
+        text-align: center;
+        flex: 0 0 20%; 
+        margin: 10px; 
+    }
+
+    p {
+        margin: 0 15px;
+        font-size: 24px;
+    }
+
+    .subtext {
+        font-size: 14px;
+    }
+
+    .home img {
+        width: 25px;  
+    }
+
+    .contact {
+        right: 10px; 
+    }
+
+    .contact img {
+        width: 25px; 
+    }
+
+    .achievment img {
+        width: 25px; 
+    }
+
+    .settings img {
+        width: 25px; 
+    }
+}
+
+
